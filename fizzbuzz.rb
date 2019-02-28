@@ -12,7 +12,7 @@ elsif int % 3 == 0 # if the number int is divisible by 3
   elsif int % 5 == 0 # if the number int is divisible by 5
     "Buzz" # Go buzz
 
-  else int % 2 == 0  # if the number int is not divisible by 3 0r 5
+  else int  # if the number int is not divisible by 3 0r 5
     "Nil" # Returns nil
   end
 end
